@@ -1,0 +1,76 @@
+body {
+	background-color:rgb(255, 215, 0);
+	font-family: Arial, sant-serif;
+	font-size: 20px;
+}
+.knopka {
+	background-color:darkred;
+	height: 40px;
+	width: 20%; 
+	border-radius:10px;
+	display:block;
+	margin:10vh auto;
+}
+.new {
+	background-color:red;
+	font-color:green;
+	height: 150px;
+	width: 150px; 
+	border-radius:75px;
+	display:block;
+	margin:10vh auto;
+}
+
+#reflex {
+	background: white;
+	position: absolute;
+	top: 0;
+	bottom:0;
+	left:0;
+	width: 100%;
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+	display:none;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content:space-between;
+}
+.h, .k, .r {
+	flex-basis:70%;
+	padding:20px;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+}
+.h {
+	background: grey;
+	border-radius: 0 0 10px 10px;
+}
+.k {
+	background: blue;
+	border-radius: 10px;
+	height: 400px;
+}
+.r {
+	background: grey;
+	border-radius: 10px 10px 0 0;
+}
+.adapt {
+	background:darkblue;
+	width:200px;
+	border-radius: 5px;
+	text-align: center;
+}
+p {
+	color:red;
+}
+h1, h2 {
+	text-decoration: underline;
+	margin:0;
+}
+h4 {
+	margin:0;
+	padding:0;
+}
